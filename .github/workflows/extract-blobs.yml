@@ -74,7 +74,7 @@ jobs:
         
     - name: Identity
       run: |
-        git config --global user.name "Hasan Basri OY"
+        git config --global user.name "hasan6034"
         git config --global user.email "hasanbasrioy@gmail.com"
         
     - name: Clone Firmware Dump
