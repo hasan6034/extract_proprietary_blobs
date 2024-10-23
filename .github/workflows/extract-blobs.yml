@@ -74,8 +74,8 @@ jobs:
         
     - name: Identity
       run: |
-        git config --global user.name "${{ env.UN }}"
-        git config --global user.email "${{ env.UEM }}"
+        git config --global user.name "hasan6034"
+        git config --global user.email "hasanbasrioy@gmail.com"
         
     - name: Clone Firmware Dump
       run: |
@@ -85,7 +85,7 @@ jobs:
     - name: Clone Device Tree
       run: |
         cd workspace
-        git clone --depth=1 ${{ env.DTR }} -b ${{ env.DTB }} ./android/device/${{ env.DVN }}/${{ env.DCN }}
+        git clone --depth=1 https://github.com/hasan6034/dt -b main ./android/device/xiaomi/selene
 
     - name: Clone LineageOS Tools and Utils
       run: |
