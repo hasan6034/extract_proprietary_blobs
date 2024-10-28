@@ -85,7 +85,7 @@ jobs:
     - name: Clone Device Tree
       run: |
         cd workspace
-        git clone --depth=1 https://github.com/hasan6034/dt -b main ./android/device/xiaomi/selene
+        git clone --depth=1 https://github.com/hasan6034/a -b main ./android/device/xiaomi/selene
 
     - name: Clone LineageOS Tools and Utils
       run: |
